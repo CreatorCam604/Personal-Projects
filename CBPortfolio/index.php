@@ -77,7 +77,10 @@
             <div class="projectCard">
                 <img src="images/To-DoListApp.png" class="card" id="To-DoListApp">
             </div>
-        </div>   
+            <div class="projectCard">
+                <img src="images/HorizonTravel.svg" class="card" id="HorizonTravel">
+            </div>
+        </div>
     </section>
 
     <section id="contact" class="contactSection">
@@ -122,7 +125,11 @@
         });
 
         document.getElementById("To-DoListApp").addEventListener("click", function() {
-            window.location.href = "New folder/To-DoList/index.php";  
+            window.location.href = "New folder/To-DoList/index.php";
+        });
+
+        document.getElementById("HorizonTravel").addEventListener("click", function() {
+            window.location.href = "New folder/Horizon Travel/index.html";
         });
 
         function GoBack() {
